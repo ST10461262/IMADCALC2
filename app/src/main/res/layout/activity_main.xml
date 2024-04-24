@@ -12,14 +12,16 @@
         android:layout_width="match_parent"
         android:layout_height="50dp"
         android:ems="10"
-        android:inputType="number" />
+        android:inputType="number"
+        android:textSize="28dp" />
 
     <EditText
         android:id="@+id/tvOutput2"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:ems="10"
-        android:inputType="number" />
+        android:inputType="number"
+        android:textSize="30dp" />
 
     <Button
         android:id="@+id/btnTotal"
@@ -61,7 +63,8 @@
         android:id="@+id/tvOutput"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="TextView" />
+        android:text="TextView"
+        android:textSize="30dp" />
 
     <Button
         android:id="@+id/btnClear"
